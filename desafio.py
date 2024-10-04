@@ -128,7 +128,6 @@ def main():
         opcao = menu()
 
         if opcao == "d":
-            
             print("Depósito")
 
             while True:
@@ -143,7 +142,6 @@ def main():
             saldo, extrato =  deposito(saldo, valor, extrato)                      
 
         elif opcao == "s":
-
             print("Saque")
 
             while True:
